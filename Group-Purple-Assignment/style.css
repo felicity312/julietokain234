@@ -59,9 +59,42 @@ nav img {
 nav .fas {
     display: none;
 }
+ .text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+ }
+ .text-box h1{
+    font-size: 62px;
+ }
+ .text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+ }
+ .link-button{
+    position: relative;
+    background: transparent;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid white;
+ }
+ .link-button:hover{
+    background: red;
+    border: 1px solid red;
+    transition: 1s;
+ }
 
-@media(max-width: 700px) {
-    .nav-links ul li {
+@media(max-width: 700px){
+    .nav-links ul li{
         display: block;
     }
     .nav-links {
